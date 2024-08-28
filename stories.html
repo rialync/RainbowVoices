@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainbowVoices - Stories</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="RainbowVoices Logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="stories.html">Stories</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h1>Personal Stories</h1>
+            <h2>Hear Our Voices</h2>
+            <p>At RainbowVoices, we believe in the power of storytelling. Here are some inspiring stories shared by members of our community. Each story offers insights into the diverse experiences of LGBTQIA+ individuals.</p>
+          
+            <div class="story">
+                <img src="images/alex_story.jpg" alt="Alex's story" class="story-img">
+                <div class="story-content">
+                    <h3><a href="alex_story.html">Alex's Journey: From Struggle to Self-Acceptance</a></h3>
+                    <p>A powerful narrative of overcoming personal struggles and finding self-acceptance. Alex's story is one of courage and resilience.</p>
+                </div>
+            </div>
+
+            <div class="story">
+                <img src="images/jai_story.jpg" alt="Jai's Story" class="story-img">
+                <div class="story-content">
+                    <h3><a href="jai_story.html">Jai's Story: Finding Love and Acceptance in an Unexpected Place</a></h3>
+                    <p>Jai shares their journey of finding love and acceptance in an unexpected place, highlighting the beauty of unforeseen connections.</p>
+                </div>
+            </div>
+
+            <h2>Share Your Story</h2>
+            <p>Your story matters. Whether it's a tale of triumph, struggle, or everyday life, we want to hear from you. Use the form below to submit your story and help us build a supportive and inclusive community.</p>
+
+            <!-- Improved Story Submission Form -->
+            <form action="submit_story.php" method="POST" class="story-form">
+                <label for="name">Name (Optional):</label><br>
+                <input type="text" id="name" name="name" class="form-input"><br><br>
+
+                <label for="title">Story Title:</label><br>
+                <input type="text" id="title" name="title" required class="form-input"><br><br>
+
+                <label for="story">Your Story:</label><br>
+                <textarea id="story" name="story" rows="10" cols="50" required class="form-textarea"></textarea><br><br>
+
+                <input type="submit" value="Submit" class="form-button">
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 RainbowVoices. All Rights Reserved. | <a href="home.html">Home</a> | <a href="resources.html">Resources</a> | <a href="stories.html">Stories</a></p>
+    </footer>
+
+</body>
+</html>
